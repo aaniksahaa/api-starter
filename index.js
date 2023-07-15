@@ -26,7 +26,7 @@ app.use(
     })
 );
   
-// Link routes to routers
+// Link routes to routers, demo url = 'api/v1/demo?data=anik'
 
 app.use('/api/v1/demo', demoRouter)
 
